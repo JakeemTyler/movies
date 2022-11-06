@@ -1,0 +1,121 @@
+#logo{
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 100%;
+  height: 100px;
+  padding-bottom: 85px;
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+color: white;
+font-family: 'Bahnschrift', sans-serif;
+text-align: center;
+font-size: 25px;
+padding-bottom: 25px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -1em;
+  padding-top: 25px;
+    }
+
+    .card {
+ background: #ffffff;
+ height: 200px;
+ font-size: xx-large;
+ box-sizing: border-box;
+      padding: 20px;
+      margin: 8px;
+      font-size: medium;
+      outline: 5px dotted rgb(255, 255, 255);
+
+}
+
+p.care{
+color:rgb(0, 0, 0);
+font-family:'Bahnschrift', sans-serif;
+font-size: 14px;
+padding-left: 120px ;
+padding-top: 10px;
+width: 70%;
+
+}
+
+body{
+  background-color: #121212;
+}
+
+img{
+border: 3px solid black;
+}
+
+label{
+  color:#ffffff;
+  font-family: 'Bahnschrift', sans-serif;
+  padding-left: 360px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+    h1 {
+      width: 100%;
+      color: #f9f9f9;
+      text-align: center;
+      font-size: 150px;
+      font-family: 'Brandon Grotesque', sans-serif;
+    }
+   
+    .highlight{
+      color: rgb(230, 185, 81);
+    }
+
+button{
+  background-color: rgb(230, 185, 81);
+  font-family: 'Bahnschrift', sans-serif;
+  padding: 6px;
+}
+.care {
+      /* float: right; */
+      margin-top: -170px;
+      padding-left: 130px;
+      font-size: medium;
+      font-weight: medium;
+      width: 50%;
+    }
+
+img {
+width: 110px;
+padding-left:  -50px;
+margin-top: -20px;
+
+}
+
+@media screen and (min-width: 600px) {
+  .cards {
+    margin-top: 2em;
+  }
+
+  .card {
+    flex: 0 1 calc(50% - 0.5em);
+    margin-bottom: 1em;
+
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .cards {
+    margin-top: inherit;
+    margin-bottom: 1em;
+  }
+
+  .card {
+    flex: 0 1 calc(33% - 1em);
+    margin-bottom: 2em;
+
+  }
+}
